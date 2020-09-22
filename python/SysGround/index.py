@@ -13,15 +13,15 @@ inp.pack(side=LEFT)
 But = Button(root, text = 'read', width = 50,command= test)
 But.pack()
 
-a = StringVar()
-a.set("s1")
-res = Label(root,  textvariable = a,  height = 5 , width = 10)
+resV = StringVar()
+resV.set("s1")
+res = Label(root,  textvariable = resV,  height = 5 , width = 10)
 res.pack()
 root.mainloop()
 
 def test():
     print('s')
     print(inp.get())
-    a.set(inp.get())
+    resV.set(inp.get())
     
 
