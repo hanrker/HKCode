@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>拖放练习H5</title>
+</head>
+<body>
+    <div id='container1' ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="../../resources/pics/access_point_128px_1175295_easyicon.net.png" id="pic" draggable="true" alt="" ondragstart="drag(event)">
+    </div>
+
+    <div id='container2' ondrop="drop(event)" ondragover="allowDrop(event)">
+            
+    </div>
+</body>
+<script>
+
+    function allowDrop(ev)
+    {
+    ev.preventDefault();
+    }
+
+    function drag(ev)
+    {
+        ev.dataTransfer.setData("Text",ev.target.id);
+        console.log("target:"+ev.target.id);
+    }
+
+    function drop(ev)
+    {
+    ev.preventDefault();
+    var data=ev.dataTransfer.getData("Text");
+    // console.log(document.getElementById(data));
+    ev.target.appendChild(document.getElementById(data));
+    // console.log(ev.target.id);
+    }
+
+</script>
+<style>
+    div{
+        display: inline-block;
+        float: left;
+        border: solid;
+        width: 300px;
+        height: 130px;
+        padding: 10px;
+        margin: 11px;
+    }
+</style>
+</html>

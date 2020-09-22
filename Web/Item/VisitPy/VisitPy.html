@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>访问站点的Python文件</title>
+</head>
+<body>
+    <input type="数1">
+    <input type="数2">
+    <span>=</span>
+    <p></p>
+    <button onclick="GetPy()">计算</button>
+</body>
+</html>
+
+<script>
+    function GetPy(){
+        xmlhttp=new XMLHttpRequest();
+        xmlhttp.open("GET",'./Item/VisitPy/index.py');
+        xmlhttp.send();
+    }
+
+</script>

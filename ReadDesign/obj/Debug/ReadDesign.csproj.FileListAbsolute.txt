@@ -1,0 +1,10 @@
+D:\HKFiles\Code\HKCODE\ReadDesign\obj\Debug\ReadDesign.csprojAssemblyReference.cache
+D:\HKFiles\Code\HKCODE\ReadDesign\obj\Debug\ReadDesign.Form1.resources
+D:\HKFiles\Code\HKCODE\ReadDesign\obj\Debug\ReadDesign.Properties.Resources.resources
+D:\HKFiles\Code\HKCODE\ReadDesign\obj\Debug\ReadDesign.csproj.GenerateResource.cache
+D:\HKFiles\Code\HKCODE\ReadDesign\obj\Debug\ReadDesign.csproj.CoreCompileInputs.cache
+D:\HKFiles\Code\HKCODE\ReadDesign\bin\Debug\ReadDesign.exe.config
+D:\HKFiles\Code\HKCODE\ReadDesign\bin\Debug\ReadDesign.exe
+D:\HKFiles\Code\HKCODE\ReadDesign\bin\Debug\ReadDesign.pdb
+D:\HKFiles\Code\HKCODE\ReadDesign\obj\Debug\ReadDesign.exe
+D:\HKFiles\Code\HKCODE\ReadDesign\obj\Debug\ReadDesign.pdb

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- import CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+
+
+</head>
+
+<body>
+
+    <div id="app">
+        <!-- <el-button @click="visible = true">Button</el-button>
+        <el-dialog :visible.sync="visible" title="Hello world">
+            <p>Try Element</p>
+        </el-dialog> -->
+        <el-cascader :props="props">11</el-cascader>
+    </div>
+
+    
+</body>
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<!-- import JavaScript -->
+<!-- <script src="https://unpkg.com/element-ui/lib/index.js"></script> -->
+
+<script src="//unpkg.com/element-ui@2.13.2/lib/index.js"></script>
+<script>
+   let id = 0;
+
+    export default {
+        data() {
+            return {
+                props: {
+                    lazy: true,
+                    lazyLoad(node, resolve) {
+                        const { level } = node;
+                        setTimeout(() => {
+                            const nodes = Array.from({ length: level + 1 })
+                                .map(item => ({
+                                    value: ++id,
+                                    label: `选项${id}`,
+                                    leaf: level >= 2
+                                }));
+                            // 通过调用resolve将子节点数据返回，通知组件数据加载完成
+                            resolve(nodes);
+                        }, 1000);
+                    }
+                }
+            };
+        }
+    };
+    var Ctor = Vue.extend(Main)
+    new Ctor().$mount('#app')
+</script>
+
+</html>

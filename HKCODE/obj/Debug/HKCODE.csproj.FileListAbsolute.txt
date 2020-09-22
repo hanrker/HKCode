@@ -1,0 +1,2 @@
+D:\HKFiles\Code\HKCODE\HKCODE\obj\Debug\HKCODE.csprojAssemblyReference.cache
+D:\HKFiles\Code\HKCODE\HKCODE\obj\Debug\HKCODE.csproj.CoreCompileInputs.cache

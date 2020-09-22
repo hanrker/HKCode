@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <title>AJAX练习</title>
+    <script type="text/javascript" src="ajax.js">   </script>
+</head>
+<body>
+    <div id="myDiv">
+        <h3>Let Ajax change this text</h3>
+    </div>
+    <button type="button" onclick="loadXMLDoc('http://127.0.0.1:8011/test.xml')">change content </button>
+
+    <br>
+    <input type="text" name="n1" id="n1">
+    <input type="text" name="n2" id="n2">
+    <button type="button" onclick="Cal()">计算</button>
+    <p id="res"></p>
+</body>
+</html>

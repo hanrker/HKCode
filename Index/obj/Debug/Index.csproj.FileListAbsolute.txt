@@ -1,0 +1,10 @@
+D:\HKFiles\Code\HKCODE\Index\bin\Debug\Index.exe.config
+D:\HKFiles\Code\HKCODE\Index\bin\Debug\Index.exe
+D:\HKFiles\Code\HKCODE\Index\bin\Debug\Index.pdb
+D:\HKFiles\Code\HKCODE\Index\obj\Debug\Index.csprojAssemblyReference.cache
+D:\HKFiles\Code\HKCODE\Index\obj\Debug\Index.Properties.Resources.resources
+D:\HKFiles\Code\HKCODE\Index\obj\Debug\Index.csproj.GenerateResource.cache
+D:\HKFiles\Code\HKCODE\Index\obj\Debug\Index.csproj.CoreCompileInputs.cache
+D:\HKFiles\Code\HKCODE\Index\obj\Debug\Index.exe
+D:\HKFiles\Code\HKCODE\Index\obj\Debug\Index.pdb
+D:\HKFiles\Code\HKCODE\Index\obj\Debug\Index.Form1.resources

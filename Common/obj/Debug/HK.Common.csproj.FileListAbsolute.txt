@@ -1,0 +1,6 @@
+D:\HKFiles\Code\HKCODE\Common\bin\Debug\HK.Common.dll
+D:\HKFiles\Code\HKCODE\Common\bin\Debug\HK.Common.pdb
+D:\HKFiles\Code\HKCODE\Common\obj\Debug\HK.Common.csproj.CoreCompileInputs.cache
+D:\HKFiles\Code\HKCODE\Common\obj\Debug\HK.Common.dll
+D:\HKFiles\Code\HKCODE\Common\obj\Debug\HK.Common.pdb
+D:\HKFiles\Code\HKCODE\Common\obj\Debug\HK.Common.csprojAssemblyReference.cache
